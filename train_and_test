@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import cv2
+import parseTrackletXML as xmlParser
+import os
+
+
+
+# Set path for the label directory and image directory
+label_dir = '2011_09_26_drive_0009_sync/predict_02/'
+image_dir = '2011_09_26/2011_09_26_drive_0009_sync/image_02/data/'
+calib_dir = '2011_09_26/2011_09_26_drive_0009_sync/calib_02/'
+print(1)
